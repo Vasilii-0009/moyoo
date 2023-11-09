@@ -1,0 +1,89 @@
+.header {
+  background-color: #151719;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+  min-height: 64px;
+}
+
+/* .header__box-burger */
+.header__box-burger {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  flex: 0 1 467px;
+}
+
+.header__btn-burger {
+  position: relative;
+  width: 17.5px;
+  margin-right: 28.75px;
+}
+
+.header__btn-burger::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  width: 22.5px;
+}
+
+.header__btn-burger::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: 0px;
+  width: 22.5px;
+}
+
+.header__btn-burger,
+.header__btn-burger::after,
+.header__btn-burger::before {
+  height: 2px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.header__img-logo {
+  opacity: 0.8;
+}
+
+/* header__box-auth */
+.header__box-auth {
+  display: flex;
+  align-items: center;
+}
+
+.header__box-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.header__img-nav {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.header__text {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.header__btn-auth {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
