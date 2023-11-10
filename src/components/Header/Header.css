@@ -87,3 +87,30 @@
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
+
+/* accaunt */
+.header__account {
+  height: 36px;
+  width: 36px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #444547;
+  border-radius: 50%;
+}
+
+/* @media  */
+@media (max-width: 768px) {
+  .header__box-auth {
+    display: none;
+  }
+
+  .header__account {
+    display: flex;
+  }
+
+  .header__box-burger {
+    justify-content: space-between;
+    flex: 0 1 100%;
+  }
+}

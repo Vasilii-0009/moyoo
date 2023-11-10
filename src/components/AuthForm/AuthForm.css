@@ -1,0 +1,76 @@
+.auth__form {
+  width: 100%;
+  max-width: 368px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-auth__box {
+  height: 192px;
+}
+
+.form-auth__input-name {
+  margin-bottom: 24px;
+}
+
+.form-auth__input-password {
+  margin-bottom: 10px;
+}
+
+.form-auth__input-name,
+.form-auth__input-password {
+  width: 100%;
+  padding: 13px 10px 13px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  outline: none;
+}
+
+.form-auth__input-name::placeholder,
+.form-auth__input-password::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form-auth_error {
+  border: 2px #bf4c4c solid;
+}
+
+.form-auth__error-message {
+  color: #bf4c4c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-auth__btn {
+  width: 100%;
+  padding: 14px 0;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.form-auth__btn_active {
+  background-color: #fff;
+}
+
+.form-auth__link {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}

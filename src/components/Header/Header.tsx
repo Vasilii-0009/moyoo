@@ -1,7 +1,9 @@
 import "./Header.css";
-import InputSearch from "../InputSearch/InputSearch";
 import logo from "../../images/logo.svg";
 import navigation from "../../images/navigation.svg";
+import account from "../../images/user.svg";
+import InputSearch from "../InputSearch/InputSearch";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -10,6 +12,9 @@ export default function Header() {
         <div className="header__box-burger">
           <button className="header__btn-burger" type="button"></button>
           <img className="header__img-logo" src={logo} alt="логотип страницы" />
+          <Link className="header__account" to="#">
+            <img src={account} alt="иконка пользователя акаунта" />
+          </Link>
         </div>
 
         <InputSearch />

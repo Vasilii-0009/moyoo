@@ -29,3 +29,10 @@
   font-weight: 400;
   outline: none;
 }
+
+/* @media */
+@media (max-width: 768px) {
+  .search {
+    display: none;
+  }
+}
